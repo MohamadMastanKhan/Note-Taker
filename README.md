@@ -51,8 +51,8 @@ Maven (Dependency Management)
 
 **🛠️ Setup Instructions**
     1.Clone the Repository:
-        git clone https://github.com/your-username/NoteTaker.git
-       cd NoteTaker
+       git clone https://github.com/MohamadMastanKhan/Note-Taker.git
+       cd Note-Taker
     2.Configure Database
             Create a MySQL database named notetaker_db
             Update hibernate.cfg.xml with your MySQL credentials
@@ -65,6 +65,19 @@ Maven (Dependency Management)
 
 **🐟 API Endpoints (Servlets)**
 
+The application provides the following servlets for handling different actions:
 
+    SaveNoteServlet (/SaveNote): Handles creating new notes and storing them in the database.
 
+    UpdateServlet (/UpdateNote): Handles updating existing notes with new content.
+
+    DeleteServlet (/DeleteNote): Handles deleting notes from the database.
+
+**🤝 Contributing**
+
+    Feel free to raise issues and contribute to this project.
+
+**🐝 License**
+
+MIT License © 2025 MohamadMastankhan
   
